@@ -1,2 +1,0 @@
-# Blanchard
-Сайт компании Blanchard
