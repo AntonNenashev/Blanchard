@@ -1,0 +1,37 @@
+# Установите поведение по умолчанию
+* text=auto
+
+# Явно укажите файлы, которые должны сохранять свои окончания строк
+*.svg binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Специфичные настройки для файлов
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.php text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.txt text eol=lf
+
+# Автоматическая обработка текстовых файлов
+* text=auto
+
+# Явно указываем LF для исходного кода
+*.php text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Исключаем vendor из обработки
+/vendor/** -text
